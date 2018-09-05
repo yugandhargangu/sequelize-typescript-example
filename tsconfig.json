@@ -7,15 +7,11 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noUnusedLocals": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": false,
     "pretty": true,
     "strictNullChecks": true
   },
-  "include": [
-    "lib/**/*.ts",
-    "index.ts"
-  ],
   "exclude": [
     "node_modules"
   ]

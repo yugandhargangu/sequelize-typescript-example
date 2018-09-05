@@ -4,25 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --require ts-node/register index.ts"
+    "start": "tsc && gulp build && node build/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "mysql2": "^1.5.1",
-    "reflect-metadata": "^0.1.10",
-    "sequelize": "^4.37.5",
-    "sequelize-typescript": "^1.0.0-alpha.1",
-    "strong-error-handler": "^2.3.0"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.38.0",
+    "sequelize-typescript": "^0.6.6",
+    "strong-error-handler": "^3.2.0"
   },
   "devDependencies": {
-    "@types/express": "^4.0.39",
-    "@types/node": "^8.0.53",
-    "ts-node": "^3.3.0",
-    "tslint": "^5.8.0",
-    "typescript": "^2.8.1"
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.9.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
   }
 }

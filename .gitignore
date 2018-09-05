@@ -1,11 +1,10 @@
 # tmp
 .idea
 .DS_Store
+package-lock.json
 
 # lib
 node_modules
 
 # build
-**/*.js
-**/*.js.map
-**/*.d.ts
+build
